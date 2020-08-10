@@ -1,0 +1,17 @@
+{
+  "name": "consuming-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/frassaolucas/consuming-api.git",
+  "author": "Lucas Frassao <frassao.lucas@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4"
+  }
+}
